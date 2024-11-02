@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End to end test suite">
+    <test name="End to end customer journey">
+        <parameter name="browserName" value="firefox"/>
+        <parameter name="author" value="Nikolaus"/>
+        <classes>
+            <class name="org.qa.automation.E2ETest">
+                <methods>
+                    <include name="e2eTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

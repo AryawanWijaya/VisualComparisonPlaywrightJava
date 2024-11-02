@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Visual Comparison Test">
+    <test name="Success comparison">
+        <parameter name="author" value="Aryawan"/>
+        <classes>
+            <class name="org.qa.automation.LoginPageTest">
+                <methods>
+                    <include name="successVisualComparisonLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Failed comparison">
+        <parameter name="author" value="Aryawan"/>
+        <classes>
+            <class name="org.qa.automation.LoginPageTest">
+                <methods>
+                    <include name="failedVisualComparisonLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Failed comparison because of threshold">
+        <parameter name="browserName" value="firefox"/>
+        <parameter name="author" value="Aryawan"/>
+        <classes>
+            <class name="org.qa.automation.LoginPageTest">
+                <methods>
+                    <include name="threshHoldTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
