@@ -49,7 +49,7 @@ public class BaseTest {
 
   @Parameters({"browserName"})
   @BeforeTest
-  public void setup(@Optional String browserName, ITestContext context) {
+  public void setup(@Optional String browserName) {
     System.out.println(
         "3 -  ================= Run @BeforeTest - Init playwright and load properties =================");
     playwrightBased = new PlaywrightBased();

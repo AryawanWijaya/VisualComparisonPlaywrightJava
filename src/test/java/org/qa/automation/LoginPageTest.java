@@ -61,19 +61,4 @@ public class LoginPageTest extends BaseTest {
         "Visual comparisson is pass, all pixel are match with threshold " + properties.getProperty(
             "image-comparison-threshold"));
   }
-
-
-  @Test
-  public void ss() {
-    navigateToUrl(properties.getProperty("url"));
-    Assert.assertEquals(loginPage.getPageTitle(), TextValidationConstant.TITLE_LOGINPAGE);
-    extentTest.pass("Success navigate to correct url");
-    extentTest.info("User fill username ");
-    loginPage.fillUsername(properties.getProperty("standart.username"));
-    extentTest.info("User fill password ");
-    loginPage.fillPassword(properties.getProperty("password"));
-    extentTest.info("click login button ");
-    ProductListingPage productListingPage = loginPage.clickLoginBtn();
-    getScreenShot("plp");
-  }
 }
