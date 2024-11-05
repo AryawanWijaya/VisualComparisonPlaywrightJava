@@ -25,7 +25,7 @@ On this project I used TestNG framework that combined with playwright, this is t
 4. If you want to run test that implement **Chaining page object design pattern** you can run **testngE2E.xml**
 
 ## Result of test:
-More detail you can read this [article](https://www.linkedin.com/pulse/setting-up-selenium-grid-4-appium-2-nikolaus-aryawan-ravato-wijaya-ca87c/)
+More detail you can read this [article](https://www.linkedin.com/pulse/visual-comparison-playwright-java-leveraging-chaining-ravato-wijaya-paf9c)
 
 ## Result of test:
 
