@@ -24,7 +24,7 @@ On this project I used TestNG framework that combined with playwright, this is t
 > this threshold based on percentage of tolerance, 0 meaning there is no tolerance of visual comparison / exactly same. if you set to 50 meaning there is a 50% tolerance different between expected image and current web application 
 4. If you want to run test that implement **Chaining page object design pattern** you can run **testngE2E.xml**
 
-## Result of test:
+## Article reference:
 More detail you can read this [article](https://www.linkedin.com/pulse/visual-comparison-playwright-java-leveraging-chaining-ravato-wijaya-paf9c)
 
 ## Result of test:
